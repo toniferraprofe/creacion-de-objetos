@@ -15,8 +15,8 @@ var samsung = {
 
     //Definimos un método para ver las propiedades del Samsung que hemos elegido
     detalles : function () {
-    console.log(` Me gusta el Samsung ${samsung.modelo} del año ${samsung.anyo} y en color ${samsung.color} `);
-    document.write(` Me gusta el Samsung ${samsung.modelo} del año ${samsung.anyo} y en color ${samsung.color} `);
+    console.log(` Me gusta el Samsung ${this.modelo} del año ${this.anyo} y en color ${this.color} `);
+    document.write(` Me gusta el Samsung ${this.modelo} del año ${this.anyo} y en color ${this.color} `);
     }
 };
 
@@ -57,8 +57,8 @@ var elege = {
     
         //Definimos un método para ver las propiedades del iPhone 11 Pro
         detalles : function () {
-        console.log(` Me gusta el iPhone ${iphone.modelo} del año ${iphone.anyo} y en color ${iphone.color} `);
-        document.write(` Me gusta el Samsung ${iphone.modelo} del año ${iphone.anyo} y en color ${iphone.color} `);
+        console.log(` Me gusta el iPhone ${this.modelo} del año ${this.anyo} y en color ${this.color} `);
+        document.write(` Me gusta el Samsung ${this.modelo} del año ${this.anyo} y en color ${this.color} `);
         }
     };
 
